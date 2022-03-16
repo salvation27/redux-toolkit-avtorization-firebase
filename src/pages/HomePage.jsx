@@ -11,10 +11,10 @@ const HomePage = () => {
     return isAuth ? (
         <div>
             <h1>Welcome user: {email}</h1>
-
+          
             <button
-                onClick={()=> dispatch(removeUser())}
-            >Log out from {email}</button>
+            onClick={()=> dispatch(removeUser())}
+            >Log out from   {email}</button>
         </div>
     ) : (
         <Redirect to="/login" />

@@ -1,9 +1,26 @@
 body {
-  margin: 0;
-  padding: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+}
+.item_wrap {
+  display: flex;
+
+}
+.del_btn {
+  color: red;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.item_price {
+  margin-left: 15px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.product_wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
